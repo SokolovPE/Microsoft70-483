@@ -693,9 +693,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\myApp\\myApp.csproj",
-      "projectName": "myApp",
-      "projectPath": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\myApp\\myApp.csproj",
+      "projectUniqueName": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\myApp\\Thread.csproj",
+      "projectName": "Thread",
+      "projectPath": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\myApp\\Thread.csproj",
       "packagesPath": "C:\\Users\\SokolovP\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\myApp\\obj\\",
       "projectStyle": "PackageReference",
