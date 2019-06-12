@@ -137,7 +137,7 @@ namespace mThread
             System.Diagnostics.Debugger.Break();
             
 #if DEBUG
-            Console.WriteLine("Debug");
+            Console.WriteLine("Debug this");
 #endif
             Console.ReadKey();
         }
