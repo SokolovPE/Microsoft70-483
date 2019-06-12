@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadPool", "ThreadPool\ThreadPool.csproj", "{09754913-1DB5-4027-AF9A-63D38A1DA577}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Manage Program Flow", "Manage Program Flow", "{4D29E4E0-F7DA-4E1A-829B-37198CBD2985}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myApp", "myApp\myApp.csproj", "{E1AB668A-F4F8-4216-B7CE-C99393152640}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implement multithreading and sync processing", "Implement multithreading and sync processing", "{4C5A9C15-200F-41D6-AC57-C744343D7696}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thread", "Manage Program Flow\Implement multithreading and sync processing\Thread\Thread.csproj", "{C2CCF6F6-24DA-43E3-A984-6B6C4CD9EBAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadPool", "Manage Program Flow\Implement multithreading and sync processing\ThreadPool\ThreadPool.csproj", "{207B0E48-0C02-4FAD-A65E-6A3896EEBACC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{09754913-1DB5-4027-AF9A-63D38A1DA577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09754913-1DB5-4027-AF9A-63D38A1DA577}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09754913-1DB5-4027-AF9A-63D38A1DA577}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09754913-1DB5-4027-AF9A-63D38A1DA577}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E1AB668A-F4F8-4216-B7CE-C99393152640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1AB668A-F4F8-4216-B7CE-C99393152640}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1AB668A-F4F8-4216-B7CE-C99393152640}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1AB668A-F4F8-4216-B7CE-C99393152640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CCF6F6-24DA-43E3-A984-6B6C4CD9EBAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CCF6F6-24DA-43E3-A984-6B6C4CD9EBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CCF6F6-24DA-43E3-A984-6B6C4CD9EBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CCF6F6-24DA-43E3-A984-6B6C4CD9EBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207B0E48-0C02-4FAD-A65E-6A3896EEBACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207B0E48-0C02-4FAD-A65E-6A3896EEBACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207B0E48-0C02-4FAD-A65E-6A3896EEBACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207B0E48-0C02-4FAD-A65E-6A3896EEBACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C5A9C15-200F-41D6-AC57-C744343D7696} = {4D29E4E0-F7DA-4E1A-829B-37198CBD2985}
+		{C2CCF6F6-24DA-43E3-A984-6B6C4CD9EBAB} = {4C5A9C15-200F-41D6-AC57-C744343D7696}
+		{207B0E48-0C02-4FAD-A65E-6A3896EEBACC} = {4C5A9C15-200F-41D6-AC57-C744343D7696}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5A65B3BF-62C7-4A83-959C-54F947428352}
