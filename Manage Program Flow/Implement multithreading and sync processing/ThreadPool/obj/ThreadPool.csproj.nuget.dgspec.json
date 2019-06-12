@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\myApp\\Thread.csproj": {}
+    "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\Manage Program Flow\\Implement multithreading and sync processing\\ThreadPool\\ThreadPool.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\myApp\\Thread.csproj": {
+    "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\Manage Program Flow\\Implement multithreading and sync processing\\ThreadPool\\ThreadPool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\myApp\\Thread.csproj",
-        "projectName": "Thread",
-        "projectPath": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\myApp\\Thread.csproj",
+        "projectUniqueName": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\Manage Program Flow\\Implement multithreading and sync processing\\ThreadPool\\ThreadPool.csproj",
+        "projectName": "ThreadPool",
+        "projectPath": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\Manage Program Flow\\Implement multithreading and sync processing\\ThreadPool\\ThreadPool.csproj",
         "packagesPath": "C:\\Users\\SokolovP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\myApp\\obj\\",
+        "outputPath": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\Manage Program Flow\\Implement multithreading and sync processing\\ThreadPool\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

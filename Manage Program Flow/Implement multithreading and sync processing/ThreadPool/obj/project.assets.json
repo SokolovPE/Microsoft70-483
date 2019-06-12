@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\ThreadPool\\ThreadPool.csproj",
+      "projectUniqueName": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\Manage Program Flow\\Implement multithreading and sync processing\\ThreadPool\\ThreadPool.csproj",
       "projectName": "ThreadPool",
-      "projectPath": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\ThreadPool\\ThreadPool.csproj",
+      "projectPath": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\Manage Program Flow\\Implement multithreading and sync processing\\ThreadPool\\ThreadPool.csproj",
       "packagesPath": "C:\\Users\\SokolovP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\ThreadPool\\obj\\",
+      "outputPath": "C:\\Users\\SokolovP\\source\\repos\\Microsoft70-483\\Manage Program Flow\\Implement multithreading and sync processing\\ThreadPool\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
