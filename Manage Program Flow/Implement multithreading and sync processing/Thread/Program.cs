@@ -89,7 +89,8 @@ namespace mThread
             t2.Join();
         }
 
-        //  Provides thread-local storage of data.
+        // Using ThreadLocal<T> class 
+        // Provides thread-local storage of data.
         public static ThreadLocal<int> _fieldLocal = new ThreadLocal<int>(() => {
             return Thread.CurrentThread.ManagedThreadId;
         });
