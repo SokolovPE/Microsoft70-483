@@ -1,0 +1,4 @@
+/home/yee/Документы/SourceCode/MVA/MSLearn/ThreadPool/obj/Debug/netcoreapp2.2/ThreadPool.csprojAssemblyReference.cache
+/home/yee/Документы/SourceCode/MVA/MSLearn/ThreadPool/obj/Debug/netcoreapp2.2/ThreadPool.csproj.CoreCompileInputs.cache
+/home/yee/Документы/SourceCode/MVA/MSLearn/ThreadPool/obj/Debug/netcoreapp2.2/ThreadPool.AssemblyInfoInputs.cache
+/home/yee/Документы/SourceCode/MVA/MSLearn/ThreadPool/obj/Debug/netcoreapp2.2/ThreadPool.AssemblyInfo.cs
