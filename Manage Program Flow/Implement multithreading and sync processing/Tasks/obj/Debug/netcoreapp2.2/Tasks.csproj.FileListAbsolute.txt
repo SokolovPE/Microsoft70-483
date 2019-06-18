@@ -1,0 +1,11 @@
+C:\Users\SokolovP\source\repos\Microsoft70-483\Manage Program Flow\Implement multithreading and sync processing\Tasks\bin\Debug\netcoreapp2.2\Tasks.deps.json
+C:\Users\SokolovP\source\repos\Microsoft70-483\Manage Program Flow\Implement multithreading and sync processing\Tasks\bin\Debug\netcoreapp2.2\Tasks.runtimeconfig.json
+C:\Users\SokolovP\source\repos\Microsoft70-483\Manage Program Flow\Implement multithreading and sync processing\Tasks\bin\Debug\netcoreapp2.2\Tasks.runtimeconfig.dev.json
+C:\Users\SokolovP\source\repos\Microsoft70-483\Manage Program Flow\Implement multithreading and sync processing\Tasks\bin\Debug\netcoreapp2.2\Tasks.dll
+C:\Users\SokolovP\source\repos\Microsoft70-483\Manage Program Flow\Implement multithreading and sync processing\Tasks\bin\Debug\netcoreapp2.2\Tasks.pdb
+C:\Users\SokolovP\source\repos\Microsoft70-483\Manage Program Flow\Implement multithreading and sync processing\Tasks\obj\Debug\netcoreapp2.2\Tasks.csprojAssemblyReference.cache
+C:\Users\SokolovP\source\repos\Microsoft70-483\Manage Program Flow\Implement multithreading and sync processing\Tasks\obj\Debug\netcoreapp2.2\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\SokolovP\source\repos\Microsoft70-483\Manage Program Flow\Implement multithreading and sync processing\Tasks\obj\Debug\netcoreapp2.2\Tasks.AssemblyInfoInputs.cache
+C:\Users\SokolovP\source\repos\Microsoft70-483\Manage Program Flow\Implement multithreading and sync processing\Tasks\obj\Debug\netcoreapp2.2\Tasks.AssemblyInfo.cs
+C:\Users\SokolovP\source\repos\Microsoft70-483\Manage Program Flow\Implement multithreading and sync processing\Tasks\obj\Debug\netcoreapp2.2\Tasks.dll
+C:\Users\SokolovP\source\repos\Microsoft70-483\Manage Program Flow\Implement multithreading and sync processing\Tasks\obj\Debug\netcoreapp2.2\Tasks.pdb
