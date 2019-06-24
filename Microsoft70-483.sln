@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thread", "Manage Program Fl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadPool", "Manage Program Flow\Implement multithreading and sync processing\ThreadPool\ThreadPool.csproj", "{207B0E48-0C02-4FAD-A65E-6A3896EEBACC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks", "Manage Program Flow\Implement multithreading and sync processing\Tasks\Tasks.csproj", "{3D452DD5-D40E-4900-AC23-F3338FA4D211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks", "Manage Program Flow\Implement multithreading and sync processing\Tasks\Tasks.csproj", "{3D452DD5-D40E-4900-AC23-F3338FA4D211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel", "Parallel\Parallel.csproj", "{04A00F3F-4FA2-431A-8BF7-B6C16383DA27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{3D452DD5-D40E-4900-AC23-F3338FA4D211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D452DD5-D40E-4900-AC23-F3338FA4D211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D452DD5-D40E-4900-AC23-F3338FA4D211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A00F3F-4FA2-431A-8BF7-B6C16383DA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A00F3F-4FA2-431A-8BF7-B6C16383DA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A00F3F-4FA2-431A-8BF7-B6C16383DA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A00F3F-4FA2-431A-8BF7-B6C16383DA27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 		{C2CCF6F6-24DA-43E3-A984-6B6C4CD9EBAB} = {4C5A9C15-200F-41D6-AC57-C744343D7696}
 		{207B0E48-0C02-4FAD-A65E-6A3896EEBACC} = {4C5A9C15-200F-41D6-AC57-C744343D7696}
 		{3D452DD5-D40E-4900-AC23-F3338FA4D211} = {4C5A9C15-200F-41D6-AC57-C744343D7696}
+		{04A00F3F-4FA2-431A-8BF7-B6C16383DA27} = {4C5A9C15-200F-41D6-AC57-C744343D7696}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5A65B3BF-62C7-4A83-959C-54F947428352}

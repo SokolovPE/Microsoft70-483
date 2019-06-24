@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Tasks
@@ -132,6 +134,91 @@ namespace Tasks
             finalTask.Wait();
         }
 
+        // Wait All
+        // It's possible to wait for multiple tasks before continuing execution
+        // In this case 3 tasks are executed at the same time, whole run will
+        // take 1000ms instead of 3000ms.
+        // Next to WaitAll, you have WhenAll to schedule a continuation method
+        // after all Tasks have finished
+        public static void WaitAll()
+        {
+            Task[] tasks = new Task[3];
+            tasks[0] = Task.Run(() =>
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("1");
+                return 1;
+            });
+            tasks[1] = Task.Run(() =>
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("2");
+                return 2;
+            });
+            tasks[2] = Task.Run(() =>
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("3");
+                return 3;
+            });
+            Task.WaitAll(tasks);
+        }
+
+        // Wait Any
+        // Wait until one of the tasks is finished
+        public static void WaitAny()
+        {
+            Task<int>[] tasks = new Task<int>[3];
+            tasks[0] = Task.Run(() => { Thread.Sleep(2000); return 1; });
+            tasks[1] = Task.Run(() => { Thread.Sleep(1000); return 2; });
+            tasks[2] = Task.Run(() => { Thread.Sleep(3000); return 3; });
+
+            while (tasks.Length > 0)
+            {
+                int i = Task.WaitAny(tasks);
+                Task<int> completed = tasks[i];
+
+                Console.WriteLine(completed.Result);
+
+                var temp = tasks.ToList();
+                temp.RemoveAt(i);
+                tasks = temp.ToArray();
+            }
+        }
+
+        // Parallel class contains methods For,ForEach and Invoke
+        public static void ParallelClass()
+        {
+            // For loop
+            Parallel.For(0, 10, i =>
+             {
+                 Thread.Sleep(1000);
+             });
+
+            // ForEach loop
+            var numbers = Enumerable.Range(0, 10);
+            Parallel.ForEach(numbers, i =>
+            {
+                Thread.Sleep(1000);
+            });
+
+            // You can cancel the loop by using the ParallelLoopState object. 
+            // You have two options to do this: Break or Stop. 
+            // Break ensures that all iterations that are currently running will be finished. 
+            // Stop just terminates everything.
+            ParallelLoopResult result = Parallel.
+                For(0, 1000, (int i, ParallelLoopState loopState) =>
+                 {
+                     if(i==500)
+                     {
+                         Console.WriteLine("Break Loop");
+                         loopState.Break(); // IsCompleted = false, LowestBreakIteration = 500
+                         //loopState.Stop();  // IsCompleted = false, LowestBreakIteration = null
+                     }
+                     return;
+                 });
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine($"SimpleTask:{Environment.NewLine}");
@@ -152,6 +239,14 @@ namespace Tasks
 
             Console.WriteLine($"TaskFactory:{Environment.NewLine}");
             TaskFactory();
+            Console.ReadKey();
+
+            Console.WriteLine($"WaitAny:{Environment.NewLine}");
+            WaitAny();
+            Console.ReadKey();
+
+            Console.WriteLine($"WaitAll:{Environment.NewLine}");
+            WaitAll();
             Console.ReadKey();
         }
     }
